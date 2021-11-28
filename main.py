@@ -10,7 +10,6 @@ letters = {
 }
 
 for l in letters:
-  print(l)
   nome_upper = nome_upper.replace(l, letters[l])
 
 print (nome_upper)
